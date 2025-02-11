@@ -88,12 +88,17 @@ Install them with a single command:
 ```bash
   pacman --sync --needed --noconfirm libfat-ogc ppc-libpng ppc-freetype ppc-libjpeg-turbo
 ```
+if not using native pacman use dpk-pacman instaead of pacman
 
 Go to the directory where the code was downloaded:
 
 ```bash
   c:
   cd \grr
+```
+if cloned by git you can go to the direcotry by
+```bash
+cd grrlib
 ```
 
 To install GRRLIB with Make in a single command:
